@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <stdlib.h>
 struct node
 {
 	int data;
@@ -10,5 +10,6 @@ void main()
 {
 	struct node *n=(struct node*)malloc(sizeof(struct node));
 	n->data=1;
-	n->next=;
+	n->next=NULL;
+	printf("%d\n", n->data);
 }
