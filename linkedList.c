@@ -1,39 +1,53 @@
 #include <stdio.h>
 #include <stdlib.h>
+
 struct node
 {
 	int data;
 	struct node* next;
 };
 
+struct node* head=NULL;
+
 void insert(int item){
 
-	struct node *i=(struct node*)malloc(sizeof(struct node));
-	i->data=item;
-	i->next=i+1;
-	(i+1)->next=NULL;
-	i++;
+	struct node* newNode=(struct node*)malloc(sizeof(struct node));
+
+	if(newNode==NULL){
+		printf("insertion of node failed dueto Memory constrainsts");
+		return ;
+	}
+
+	newNode->data=item;
+	newNode->next=NULL;
+
+	if(head==NULL){
+		head=newNode;
+	}else{
+		struct node* temp=head;
+		while(temp->next!=NULL){
+			temp=temp->next;
+		}
+		temp->next=newNode;
+	}
+
+	printf("Inserted %d ",item);
 
 }
 
-void display(struct node *p){
-	while(p->next!=NULL){
-		printf("%d",p->data);
+void display(){
+	struct node* temp=head;
+	while(temp!=NULL){
+		printf("%d ",temp->data);
+		temp=temp->next;
 	}
+	printf("\n");
 }
 
 void main()
 {
-	// struct node *n1=(struct node*)malloc(sizeof(struct node));
-	// struct node *n2=(struct node*)malloc(sizeof(struct node));
-	// n1->data=1;
-	// n1->next=n2;
-	// n2->data=2;
-	// n2->next=NULL;
-	// printf("%d\n", n1->data);
 
-	int ch,item,i;
-	struct node j;
+	int ch,item;
 	while(1){
 		printf("\nEnter your choice: ");
 		scanf("%d",&ch);
@@ -42,11 +56,10 @@ void main()
 			case 1:
 				printf("\nEnter item to be inserted into the list: ");
 				scanf("%d",&item);
-
 				insert(item);
 				break;
 			case 2:
-				display(j);
+				display();
 				break;
 		}
 	}
