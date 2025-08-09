@@ -49,7 +49,7 @@ void main()
 
 	int ch,item;
 	while(1){
-		printf("\nEnter your choice: ");
+		printf("\n1.Insert an item\n2.Display\n3.exit\nEnter your choice: ");
 		scanf("%d",&ch);
 
 		switch(ch){
@@ -61,6 +61,10 @@ void main()
 			case 2:
 				display();
 				break;
+			case 3:
+				exit(1);
+			default:
+				printf("enter a valid option");
 		}
 	}
 }
