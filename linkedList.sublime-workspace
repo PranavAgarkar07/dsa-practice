@@ -1,0 +1,251 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"print",
+				"printf\tprintf …"
+			],
+			[
+				"ios",
+				"iostream"
+			],
+			[
+				"N",
+				"NULL"
+			],
+			[
+				"st",
+				"struct\tstruct"
+			],
+			[
+				"pri",
+				"printf\tprintf …"
+			],
+			[
+				"it",
+				"item"
+			],
+			[
+				"prin",
+				"printf\tprintf …"
+			],
+			[
+				"ve",
+				"vec"
+			],
+			[
+				"vec",
+				"vector\tstd::vector"
+			],
+			[
+				"ma",
+				"MaxMin"
+			],
+			[
+				"for",
+				"forv\tVector For Loop"
+			],
+			[
+				"p",
+				"print"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/C++/C Single File.sublime-build",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"build",
+				"Build With: C Single File - Run"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/pagarkar/Desktop/projects/dsa-practice"
+	],
+	"file_history":
+	[
+		"/home/pagarkar/Desktop/projects/dsa-practice/linkedList.c",
+		"/home/pagarkar/Desktop/insert&del.c",
+		"/home/pagarkar/.config/sublime-text/Packages/Default/Preferences.sublime-settings",
+		"/home/pagarkar/.config/sublime-text/Packages/User/Preferences.sublime-settings",
+		"/home/pagarkar/Desktop/A1stackStruct.c",
+		"/home/pagarkar/Desktop/gemini.c",
+		"/home/pagarkar/Desktop/A1stack.c",
+		"/home/pagarkar/Desktop/practice.cpp",
+		"/home/pagarkar/.config/sublime-text/Packages/User/hi.sublime-build",
+		"/home/pagarkar/Desktop/main.py",
+		"/home/pagarkar/.config/sublime-text/Packages/User/C Panel Terminus.sublime-build",
+		"/home/pagarkar/.config/sublime-text/Packages/User/C Inside Sublime.sublime-build",
+		"/home/pagarkar/.config/sublime-text/Packages/User/C Gnome External.sublime-build",
+		"/home/pagarkar/Downloads/A22stack.c",
+		"/home/pagarkar/Desktop/stack.c",
+		"/home/pagarkar/Desktop/dsa.cpp",
+		"/home/pagarkar/Desktop/main.c",
+		"/home/pagarkar/hi.c"
+	],
+	"find":
+	{
+		"height": 61.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 61.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"pinned_build_system": "Packages/User/C Gnome External.sublime-build",
+	"project": "linkedList.sublime-project",
+	"replace":
+	{
+		"height": 118.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
