@@ -35,6 +35,21 @@ void insertAtEND(int item){
 
 }
 
+void insertAfter(struct node* loc,int item){
+	struct node* newNode=(struct node*)malloc(sizeof(struct node));
+
+	if(newNode==NULL){
+		printf("insertion of node failed dueto Memory constrainsts");
+		return ;
+	}
+
+	newNode->data=item;
+	newNode->next=loc->next;
+
+	loc->link=newNode
+
+}
+
 void display(){
 	struct node* temp=head;
 	while(temp!=NULL){
@@ -46,10 +61,9 @@ void display(){
 
 void main()
 {
-
 	int ch,item;
 	while(1){
-		printf("\n1.Insert an item\n2.Display\n3.exit\nEnter your choice: ");
+		printf("\n1.Insert at end\n4.Insert After a given node\n3.Display\n4.exit\nEnter your choice: ");
 		scanf("%d",&ch);
 
 		switch(ch){
@@ -59,9 +73,14 @@ void main()
 				insertAtEND(item);
 				break;
 			case 2:
-				display();
+				printf("\nEnter item to be inserted into the list: ");
+				scanf("%d",&item);
+				insertAtEND(item);
 				break;
 			case 3:
+				display();
+				break;
+			case 4:
 				exit(1);
 			default:
 				printf("enter a valid option");

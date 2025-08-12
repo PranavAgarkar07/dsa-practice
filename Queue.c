@@ -15,7 +15,7 @@ void push(int x){
 }
 
 int pop(){
-	if(rear==-1&&front==-1){
+	if(rear==-1&&front==-1||front>rear){
 		printf("Queue is empty");
 		return 0;
 	}
